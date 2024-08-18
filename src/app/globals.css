@@ -29,14 +29,35 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(140deg, rgb(32, 124, 182), rgb(114, 34, 168));
+  background: linear-gradient(140deg, rgb(194, 158, 149), rgb(103, 41, 24));
   color: black;
 }
 
 .calculator {
   padding: 20px;
   border-radius: 10px;
-  background-color:white;
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  width: 100%;
+}
+
+form input {
+  border: none;
+  outline: 0;
+  width: 60px;
+  height: 60px;
+  font-size: 16px;
+  background-color: rgb(231, 159, 129);
+  margin: 2px;
+  border-radius: 10px;
+  color: black;
+  font-weight: bolder;
+  cursor: pointer; 
+}
+
+form input[type="button"]:hover {
+  background-color: brown;
 }
 
 @layer utilities {
