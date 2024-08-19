@@ -60,6 +60,23 @@ form input[type="button"]:hover {
   background-color: brown;
 }
 
+form .display{
+  display: flex;
+  justify-content: flex-end;
+  margin: 5px 0px 20px 0px;
+}
+
+form .display input{
+  text-align: right;
+  flex:1;
+font-size: 40px;
+padding: 5px 10px;
+}
+
+form input .equal{
+  width: 120px;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
