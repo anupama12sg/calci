@@ -22,7 +22,7 @@ export default function Home() {
   };
 
   return (
-    <div className="container">
+    <><h1><center>MY CALCULATOR</center></h1><div className="container">
       <div className="calculator">
         <form action="">
           <div className="display">
@@ -59,6 +59,6 @@ export default function Home() {
           </div>
         </form>
       </div>
-    </div>
+    </div></>
   );
 }
