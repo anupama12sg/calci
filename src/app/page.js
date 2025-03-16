@@ -17,7 +17,7 @@ export default function Home() {
         setInput("Error");
       }
     } else {
-      setInput(input + value);
+      setInput(input + value); 
     }
   };
 
