@@ -53,27 +53,27 @@ form input {
   border-radius: 10px;
   color: black;
   font-weight: bolder;
-  cursor: pointer; 
+  cursor: pointer;
 }
 
 form input[type="button"]:hover {
   background-color: brown;
 }
 
-form .display{
+form .display {
   display: flex;
   justify-content: flex-end;
   margin: 5px 0px 20px 0px;
 }
 
-form .display input{
+form .display input {
   text-align: right;
-  flex:1;
-font-size: 40px;
-padding: 5px 10px;
+  flex: 1;
+  font-size: 40px;
+  padding: 5px 10px;
 }
 
-form input .equal{
+form input .equal {
   width: 120px;
 }
 
